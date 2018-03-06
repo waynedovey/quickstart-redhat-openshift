@@ -1,3 +1,4 @@
+{
     "AWSTemplateFormatVersion": "2010-09-09",
     "Description": "(qs-1nltbq5f3) OpenShift+VPC, License: Apache 2.0 (Please do not remove) January, 5, 2018",
     "Metadata": {
@@ -1558,7 +1559,7 @@
                                 "systemctl restart dbus\n",
                                 "systemctl restart dnsmasq\n",
                                 "systemctl restart NetworkManager\n",
-                                "systemctl restart systemd-logind\n"
+                                "systemctl restart systemd-logind\n",
                                 "yum install -y atomic-openshift-docker-excluder atomic-openshift-node atomic-openshift-sdn-ovs ceph-common conntrack-tools dnsmasq docker docker-client docker-common docker-rhel-push-plugin glusterfs glusterfs-client-xlators glusterfs-fuse glusterfs-libs iptables-services iscsi-initiator-utils iscsi-initiator-utils-iscsiuio tuned-profiles-atomic-openshift-node",
                                 "\n"
                             ]
@@ -1773,7 +1774,7 @@
                                 "systemctl restart dbus\n",
                                 "systemctl restart dnsmasq\n",
                                 "systemctl restart NetworkManager\n",
-                                "systemctl restart systemd-logind\n"
+                                "systemctl restart systemd-logind\n",
                                 "yum install -y atomic-openshift-docker-excluder atomic-openshift-node atomic-openshift-sdn-ovs ceph-common conntrack-tools dnsmasq docker docker-client docker-common docker-rhel-push-plugin glusterfs glusterfs-client-xlators glusterfs-fuse glusterfs-libs iptables-services iscsi-initiator-utils iscsi-initiator-utils-iscsiuio tuned-profiles-atomic-openshift-node",
                                 "\n"
                             ]
@@ -1988,7 +1989,7 @@
                                 "systemctl restart dbus\n",
                                 "systemctl restart dnsmasq\n",
                                 "systemctl restart NetworkManager\n",
-                                "systemctl restart systemd-logind\n"
+                                "systemctl restart systemd-logind\n",
                                 "yum install -y atomic-openshift-docker-excluder atomic-openshift-node atomic-openshift-sdn-ovs ceph-common conntrack-tools dnsmasq docker docker-client docker-common docker-rhel-push-plugin glusterfs glusterfs-client-xlators glusterfs-fuse glusterfs-libs iptables-services iscsi-initiator-utils iscsi-initiator-utils-iscsiuio tuned-profiles-atomic-openshift-node",
                                 "\n"
                             ]
